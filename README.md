@@ -1,5 +1,13 @@
 ### Hi there 👋
 
+### 🔧 Technologies & Tools
+![](https://img.shields.io/badge/OS-Linux-blue?logo=archlinux)
+![](https://img.shields.io/badge/Code-C%2B%2B-blue?logo=cplusplus)
+![](https://img.shields.io/badge/Shell-zsh-blue?logo=gnubash)
+
+### &#x1f4c8; GitHub Stats
+![](https://github.com/Andrei9383/github-stats/blob/master/generated/languages.svg)
+![](https://github.com/Andrei9383/github-stats/blob/master/generated/overview.svg)
 <!--
 **Andrei9383/Andrei9383** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
