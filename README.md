@@ -1,5 +1,9 @@
 ### Hi there! <img src="https://raw.githubusercontent.com/Andrei9383/Andrei9383/master/wave.gif" width="30px">
 
+### 📊 Coding sites
+- **pbinfo.ro** : <br>[![pbinfo](https://i.imgur.com/qJ62cqX.png)](https://www.pbinfo.ro/profil/Andrei9383)
+- **codeforces.com** : <br>[![codeforces](https://i.imgur.com/JzuxHqT.png)](https://codeforces.com/profile/Andrei9383)
+
 ### 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/OS-Linux-blue?logo=archlinux)
 ![](https://img.shields.io/badge/Code-C%2B%2B-blue?logo=cplusplus)
