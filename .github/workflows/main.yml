@@ -54,10 +54,7 @@ jobs:
           plugin_screenshot_selector: body
           plugin_screenshot_title: Cerberus
           plugin_screenshot_url: https://www.nsa.gov/
-          plugin_screenshot_viewport: {
-            "width": 1280,
-            "height": 1280
-          }
+
 
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
