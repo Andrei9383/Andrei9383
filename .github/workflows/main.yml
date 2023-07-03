@@ -24,7 +24,6 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
 
           # Options
           user: Andrei9383
@@ -60,7 +59,8 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random
           plugin_stock: yes
+          plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
           plugin_stock_duration: 1d
           plugin_stock_interval: 5m
-          plugin_stock_symbol: eth-usd
+          plugin_stock_symbol: TSLA
           plugin_traffic: yes
