@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
+<defs>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade');</style>
+</defs>
 <svg
    width="196.59584mm"
    height="35.940971mm"
@@ -43,7 +45,7 @@
      transform="translate(-7.798268,-85.524785)">
     <text
        xml:space="preserve"
-       style="font-size:42.3333px;font-family:Rockwell;-inkscape-font-specification:Rockwell;white-space:pre;inline-size:265.787;fill:#000000;stroke-width:0.264583"
+       style="font-size:42.3333px;font-family:'Bungee Shade';-inkscape-font-specification:Rockwell;white-space:pre;inline-size:265.787;fill:#000000;stroke-width:0.264583"
        x="70.370354"
        y="121.03911"
        id="text113"
