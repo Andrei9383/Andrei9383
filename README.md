@@ -1,6 +1,8 @@
 
 
-<img src="/bitmap2.svg" width="100%">
+<img src="/bitmap2.svg#gh-light-mode-only" width="100%">
+<img src="/bitmapblue.svg#gh-dark-mode-only" width="100%">
+
 <table>
   <tr>
     <td align=center>
