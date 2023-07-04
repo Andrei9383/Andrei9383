@@ -1,6 +1,6 @@
 
 
-<img src="/bitmap2.svg" width="95%">
+<img src="/bitmap2.svg" width="100%">
 <table>
   <tr>
     <td align=center>
