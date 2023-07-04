@@ -1,28 +1,31 @@
 ### Hi there! <img src="https://raw.githubusercontent.com/Andrei9383/Andrei9383/master/wave.gif" width="30px">
 
-### 📊 Coding sites
-- **pbinfo.ro** : <br>[![pbinfo](https://i.imgur.com/qJ62cqX.png)](https://www.pbinfo.ro/profil/Andrei9383)
-- **codeforces.com** : <br>[![codeforces](https://i.imgur.com/JzuxHqT.png)](https://codeforces.com/profile/Andrei9383)
+<table>
+  <tr>
+    <td align=center>
 
-### 🔧 Technologies & Tools
-![](https://img.shields.io/badge/OS-Linux-blue?logo=archlinux)
-![](https://img.shields.io/badge/Code-C%2B%2B-blue?logo=cplusplus)
-![](https://img.shields.io/badge/Shell-zsh-blue?logo=gnubash)
-
-### &#x1f4c8; GitHub Stats
-![](https://github.com/Andrei9383/github-stats/blob/master/generated/languages.svg)
-![](https://github.com/Andrei9383/github-stats/blob/master/generated/overview.svg)
-<!--
-**Andrei9383/Andrei9383** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    </td>
+  </tr>
+  <tr>
+    <td>
+      
+  </td>
+</tr>
+<tr>
+  <td>🔭 I am currently working on <b>REDACTED</b> </td>
+</tr>
+<tr>
+  <td>🌱 My current objective is becoming a source engine wizard <a href=https://github.com/perilouswithadollarsign/cstrike15_src>Mykonos vase</a></td>
+</tr>
+<tr>
+  <td>✉️ Find more about me on <a href=https://www.fbi.gov/wanted>google.com</a></td>
+</tr>
+<tr>
+  <td>⚡ PS: Certified professional NSA enemy</td>
+</tr>
+<tr>
+  <td>
+    <img src="/github-metrics.svg" alt="Metrics" width="100%">
+  </td>
+</tr>
+</table>
