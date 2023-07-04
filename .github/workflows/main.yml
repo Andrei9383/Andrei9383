@@ -74,10 +74,6 @@ jobs:
               ready: "[...document.querySelectorAll('span')].map(span => span.innerText).includes('Share on Twitter')"
               wait: 1
               hide: "button, footer, a"
-          plugin_stock: yes
-          plugin_stock_duration: 1d
-          plugin_stock_interval: 5m
-          plugin_stock_symbol: TSLA
           plugin_skyline_year: current-year
           plugin_stars: yes
           plugin_stars_limit: 4
