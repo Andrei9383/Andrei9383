@@ -1,0 +1,41 @@
+name: Profile cards
+
+# Re-fetches contributions + stars and re-renders cards/*.svg once a day,
+# on every push that touches the scripts or copy, and on demand.
+
+"on":
+  schedule:
+    - cron: "23 4 * * *"   # ~07:23 Bucharest
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["scripts/**", "data/content.json", "assets/**", "fonts/*.woff2", ".github/workflows/profile.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - name: Fetch contributions and stars
+        env:
+          # needs read:user to include private contributions; falls back to the job token
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
+        run: python scripts/fetch_data.py
+      - name: Render cards
+        run: python scripts/render_cards.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile cards [skip ci]"
+          # commit as the bot, not as you: a commit authored by you would count as a
+          # contribution and pad the very graph these cards draw
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          file_pattern: "data/profile.json cards/*.svg"

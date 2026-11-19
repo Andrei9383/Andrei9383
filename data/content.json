@@ -1,0 +1,132 @@
+{
+  "_comment": "Hand-written copy for the cards. Edit freely, then run scripts/render_cards.py (live numbers come from data/profile.json).",
+  "name": [
+    "Andrei",
+    "Stan"
+  ],
+  "tagline": "I build things that see, hear and forecast, and take apart the ones that weren't meant to be opened.",
+  "focus": "Reverse engineering · Security · Systems",
+  "redacted": "currently: ███████████ (under NDA)",
+  "tiles": [
+    {
+      "label": "SHIP",
+      "repo": "Andrei9383/Blucast",
+      "value": "{stars} stars",
+      "text": "Blucast: NVIDIA Broadcast, but for Linux. AI background blur and replacement on Wayland and X11.",
+      "url": "https://github.com/Andrei9383/Blucast"
+    },
+    {
+      "label": "HACK",
+      "value": "5 hackathons",
+      "text": "In twelve months: PPC Energy, HackITall, Google, SmartHack and UiPath Future Forward.",
+      "url": "https://github.com/Andrei9383?tab=repositories"
+    },
+    {
+      "label": "TINKER",
+      "value": "25 themes",
+      "text": "Classic Vim colourschemes, ported faithfully to Zed. Plus dotfiles for an Arch box.",
+      "url": "https://github.com/Andrei9383/vim-classic-themes-zed"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blucast",
+      "repo": "Andrei9383/Blucast",
+      "pitch": "NVIDIA Broadcast, but for Linux: real-time AI background removal, replacement and blur on a virtual camera, built on the Maxine SDK.",
+      "lang": "Python",
+      "tag": "open source"
+    },
+    {
+      "name": "AudioBolt",
+      "repo": "Andrei9383/uipath-hack",
+      "pitch": "Finds where a phone recording was made from the planes you can barely hear in it: Doppler curves, ADS-B tracks and mains hum, run by an AI agent.",
+      "lang": "Python",
+      "tag": "UiPath Future Forward · 2026"
+    },
+    {
+      "name": "WattSentry",
+      "repo": "Andrei9383/smarthack",
+      "pitch": "Forecasting and control for rooftop solar, home batteries, wind farms and the low-voltage grid, on one map of Romania, every 15 minutes.",
+      "lang": "Python",
+      "tag": "SmartHack · 2026"
+    },
+    {
+      "name": "WindMon",
+      "repo": "Andrei9383/Windmon",
+      "pitch": "Wind farm monitoring: live S3 ingestion, anomaly detection, TSO-ready daily reports and LLM fleet briefings. Built in 24h, hardened after.",
+      "lang": "TypeScript",
+      "tag": "PPC HackITall · 2026"
+    }
+  ],
+  "log": [
+    [
+      "2026",
+      "AudioBolt",
+      "audio geolocation from aircraft Doppler · UiPath Future Forward"
+    ],
+    [
+      "2026",
+      "WattSentry",
+      "distributed-energy forecasting and control · SmartHack"
+    ],
+    [
+      "2026",
+      "Vim Classic Themes",
+      "25 classic Vim colourschemes ported to Zed"
+    ],
+    [
+      "2026",
+      "WindMon",
+      "wind farm monitoring platform · PPC HackITall"
+    ],
+    [
+      "2026",
+      "Project Aura",
+      "haptic + spoken spatial awareness for the visually impaired · Google hackathon"
+    ],
+    [
+      "2026",
+      "Blucast",
+      "NVIDIA Broadcast for Linux · {blucast_stars} stars"
+    ],
+    [
+      "2025",
+      "PPC Energy Hackathon",
+      "15-minute energy-market trading agent"
+    ],
+    [
+      "2025",
+      "Rust tools",
+      "rustybox, markdown-to-html, a TCP chat"
+    ],
+    [
+      "2023",
+      "NoteVision · Soulphour",
+      "a notes app; a family of near-monochrome themes"
+    ],
+    [
+      "2022",
+      "EduVision · roboCTRL",
+      "personalised study timetables; a Bluetooth controller for an Arduino robot"
+    ],
+    [
+      "2021",
+      "Competitive programming",
+      "CodeForces, AtCoder, infoarena, pbinfo"
+    ]
+  ],
+  "links": [
+    [
+      "Blucast",
+      "https://github.com/Andrei9383/Blucast"
+    ],
+    [
+      "dotfiles",
+      "https://github.com/Andrei9383/dotfiles"
+    ],
+    [
+      "all repos",
+      "https://github.com/Andrei9383?tab=repositories"
+    ]
+  ]
+}
